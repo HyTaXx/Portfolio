@@ -3,3 +3,39 @@
     margin: 0;
     padding: 0;
 }
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+footer{
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.section1{
+    background-color: rgb(228, 238, 238);
+    height: 100vh;
+}
+
+.section2{
+    background-color: azure;
+    height: 150vh;
+}
+
+.section3{
+    background-color: rgb(228, 238, 238);
+}
+
+header{
+    display: none;
+}
