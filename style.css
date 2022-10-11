@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'modeseven-webfont';
+    src: url('font/modeseven-webfont.eot');
+    src: url('font/modeseven-webfont.eot') format('embedded-opentype'),
+         url('font/modeseven-webfont.woff') format('woff'),
+         url('font/modeseven-webfont.ttf') format('truetype'),
+         url('font/modeseven-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: modeseven-webfont;
+    display: flex;
+    font-display: row;
+    gap: 8px;
+    font-size: 1.3em;
+}
+
+.number{
+    color: rgb(38, 162, 0);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +41,20 @@ footer{
     height: 100vh;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    right: 10%;
+    gap: 40px;
+  }
+
+
+
 .container{
     height: 100vh;
     overflow-y: scroll;
@@ -23,7 +62,7 @@ footer{
 }
 
 .section1{
-    background-color: rgb(228, 238, 238);
+    background-color: #14003F;
     height: 100vh;
 }
 
@@ -44,5 +83,5 @@ header{
     width: 5%;
     height: 100vh;
     position:fixed;
-    background-color: pink;
+    background-color: rgb(198, 198, 198);
 }
