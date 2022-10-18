@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armand Nobre</title>
     <link rel="stylesheet" href="style.css">
+    <link href="prism.css" rel="stylesheet" />
+    
     <!--
         Projet Portfolio Comprenant 
         - Présentation
@@ -35,15 +37,23 @@
                     <li><a href="news.asp"><p class="number">2-</p>  PROJETS</a></li>
                     <li><a href="contact.asp"><p class="number">3-</p>  CONTACTS</a></li>
                   </ul>
-                <h1>Home</h1>
-                <div>
-                    
-                </div>
-                <div>
-
-                </div>
-                <div>
-
+                <div class="pres">
+                    <div class="stock">
+                        <div class="page">
+                            <p>Intro.html</p>
+                        </div>
+                        <div class="page">
+                            <p>Welcome.html</p>
+                        </div>
+                    </div>
+                    <div class="texte">
+                        <pre class="line-numbers"><code class="language-html">
+&lt;div class="intro">
+    &lt;h2 class="intro">Salut ! &lt;/h2>
+    &lt;p class="intro">Moi , c'est Armand&lt;/p>
+&lt;/div>
+                        </code></pre>
+                    </div>
                 </div>
             </section>
             <section class="section2"> <!-- Présentation -->
@@ -69,5 +79,6 @@
             </section>
         </div>
     </main>
+    <script src="prism.js"></script>
 </body>
 </html>
