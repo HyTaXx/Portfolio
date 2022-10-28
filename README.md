@@ -15,7 +15,7 @@ git clone https://github.com/HyTaXx/Portfolio
 
 You will then have acces to all the Portfolio files
 
-## Depoyement 
+## Deployement 
 
 To deploy the Portfolio online , i used [Vercel](https://vercel.com/dashboard) .
 All i had to do was to go to Vercel website , log in with github , selected the projet repository and hitted import. 
