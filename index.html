@@ -93,16 +93,39 @@
                     </div>
             </section>
             <section class="section3" id="zone2"> <!-- Projets -->
-                <h1>Projets</h1>
-                <div>
-                    
+                <div class="projetsswag">
+                    <div onclick="location.href='test.html';" style="cursor: pointer;">
+                        <img src="img/Screenshot_20220913_163718.jpg" alt="test" width="250px">
+                        <h2>Projet fin d'année</h2>
+                        <p>Mon premier vrai projet web pour mon rendu de fin d'année d'année 1 à l'IIM</p>
+                    </div>
+                    <div onclick="location.href='test.html';" style="cursor: pointer;">
+                        <img src="img/Screenshot_20220913_163718.jpg" alt="test" width="250px">
+                        <h2>Projet "KoBo"</h2>
+                        <p>Projet en développement dans le but de réaliser un je ude cartes en ligne multijoueur</p>
+                    </div>
                 </div>
             </section>
             <section class="section4" id="zone3"> <!-- Contacts -->
-                <h1>Contacts</h1>
                 <div>
-
-                </div>
+                    <h1>Formulaire de contact</h1>
+                    <form action="/action_page.php">
+                      <label for="fname">Nom & prénom</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+                  
+                      <label for="sujet">Sujet</label>
+                      <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+                  
+                      <label for="emailAddress">Email</label>
+                      <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+                  
+                  
+                      <label for="subject">Message</label>
+                      <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Envoyer">
+                    </form>
+                  </div>
             </section>
         </div>
     </main>
