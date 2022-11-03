@@ -91,22 +91,33 @@ ul {
 .section3{
     background-color: rgb(228, 238, 238);
     padding: 100px;
+    margin-left: 5%;
+}
+
+.projetsoue{
+    width: 300px;
 }
 
 .projetsswag{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 100px;
 }
 
 header{
     display: none;
 }
 
+#imgmoi{
+    clip-path:ellipse(50% 50%);
+    object-fit: cover;
+}
+
 .presswag{
     display: flex;
     flex-direction: row;
     gap: 40px;
+    width: 60%;
 }
 
 
@@ -190,6 +201,10 @@ header{
   }
   
   .back {
+    width: 75%;
+  }
+
+  .ui{
     width: 65%;
   }
 
