@@ -88,10 +88,23 @@ ul {
     padding: 100px;
 }
 
+.reseaux{
+    position: absolute;
+    bottom: 0;
+    left: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cases{
+    justify-content: center;
+}
+
 .section3{
     background-color: rgb(228, 238, 238);
     padding: 100px;
-    margin-left: 5%;
+    margin-left: 100px;
 }
 
 .projetsoue{
@@ -122,7 +135,7 @@ header{
 
 
 .bar{
-    width: 5%;
+    width: 100px;
     height: 100vh;
     position:fixed;
     background-color: rgb(198, 198, 198);
