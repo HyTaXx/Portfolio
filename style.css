@@ -78,10 +78,6 @@ section{
     align-items: center; 
 }
 
-footer{
-    height: 100vh;
-}
-
 ul {
     display: flex;
     flex-direction: row;
@@ -141,6 +137,13 @@ ul {
     margin-bottom: 20px;
 }
 
+.reseaux2{
+    display: none;
+    flex-direction: row;
+    background-color: rgb(198, 198, 198);
+    height: 100px;
+    justify-content: center;
+}
 .cases{
     justify-content: center;
 }
@@ -187,6 +190,9 @@ ul {
     margin-bottom: 50px;
 }
 
+footer{
+    background-color: rgb(198, 198, 198);
+}
 
 .bar{
     width: 100px;
@@ -338,5 +344,9 @@ ul {
 
     .projetsswag{
         flex-direction: column;
+    }
+
+    .reseaux2{
+        display: flex;
     }
   }
