@@ -14,6 +14,11 @@ p{
     background-color: none;
 }
 
+.pagesproj{
+    background-color: #14003F;
+    padding: 50px;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -24,7 +29,14 @@ a{
     font-size: 1.3em;
 }
 
+.imgdebg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 h2,h1,label,.texteswagg{
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -95,7 +107,6 @@ ul {
     flex-direction: column;
     background-image: url(img/fond.PNG);
     background-size: cover;
-    height: 150vh;
     padding: 100px;
 }
 
@@ -147,10 +158,6 @@ ul {
     gap: 100px;
 }
 
-header{
-    display: none;
-}
-
 #imgmoi{
     clip-path:ellipse(50% 50%);
     object-fit: cover;
@@ -160,7 +167,7 @@ header{
     display: flex;
     flex-direction: row;
     gap: 40px;
-    width: 60%;
+    margin-bottom: 50px;
 }
 
 
@@ -189,11 +196,18 @@ header{
     height: auto;
 }
 
+.mapres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
 .page{
     display: flex;
     align-items: center;
     background-color: #2d2d2d;
-    width: 17%;
+    width: 160px;
     height: 100%;
     color: white;
     font-family: Consolas;
@@ -233,6 +247,7 @@ header{
 
   .section4{
     background-color: #14003F;
+    padding: 150px;
   }
   
   .progressbar[title="downloading"] {
