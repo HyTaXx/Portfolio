@@ -14,6 +14,22 @@ p{
     background-color: none;
 }
 
+.pres,.pagesproj,ul{
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .pagesproj{
     background-color: #14003F;
     padding: 50px;
