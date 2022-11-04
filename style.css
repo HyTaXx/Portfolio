@@ -92,6 +92,7 @@ ul {
     top: 40px;
     right: 10%;
     gap: 40px;
+    z-index: 5;
   }
 
 .nav-text{
