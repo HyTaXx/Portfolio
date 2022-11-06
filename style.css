@@ -78,6 +78,14 @@ section{
     align-items: center; 
 }
 
+.build{
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
     display: flex;
     flex-direction: row;
