@@ -1,3 +1,5 @@
+/* Polices d'écriture */
+
 @font-face {
     font-family: 'modeseven-webfont';
     src: url('font/modeseven-webfont.eot');
@@ -9,10 +11,6 @@
     font-style: normal;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-p{
-    background-color: none;
-}
 
 .pres,.pagesproj,ul{
     animation: transitionIn 0.75s;
